@@ -1,0 +1,157 @@
+*
+{
+    padding: 0;
+    margin: 0
+}
+html
+{
+    height: :-webkit-fill-available;
+}
+body
+{
+    background-image: url(images.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;  
+    height: 100vh;
+    height: :-webkit-fill-available;
+}
+.menu-bar
+{   
+    background: green;
+    text-align: center;
+}
+.menu-bar ul
+{
+    font-family: SimSun-ExtB;    
+    display: inline-flex;
+    list-style: none;
+    color: navajowhite;
+    font-weight: bold;
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.active, .menu-bar ul li:hover
+{
+    background: black;
+    border-radius: 3px;
+}
+.menu-bar.fa
+{
+    margin-right: 8px;
+}
+.sub-menu-1
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display:block;
+    position: absolute;
+    background: black;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul 
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 130px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: black;
+    border-radius: 1;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+    color:lightgray;
+}
+.image
+{
+    width: 100px;
+    height: 100px;
+    padding-top: none;
+    padding-right: 400px;
+    float: right;
+}
+.image1
+{
+    width: 100px;
+    height: 100px;
+    padding-top: none;
+    padding-left: 400px;
+    float: left;
+}
+.flag
+{
+    width: 350px;
+    height: 220x;
+    }
+h1
+{
+    font-family: Perpetua;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
+h2
+{
+    font-family: Algerian;
+    font-display: block;
+    color:darkred;
+    text-align: center;
+}
+h3
+{
+    font-family: Bookman Old Style;
+    color:dimgray;
+    text-align: center;
+    text-emphasis-color: brown;
+}
+p
+{
+    font-style:normal;
+    font-family: Agency FB;
+    font-size-adjust: none;
+    font-size: 26px;
+    text-align: center;
+    color:black;
+    background-color: none;
+}
+h4
+{
+    font-family: Perpetua;
+    font-size: 25px;
+    color: black;
+    text-align: center; 
+}
+h5
+{
+    font-family: Perpetua;
+    color: black;
+    font-size: 18px;
+    text-align: center; 
+}
+h6
+{   font-family: Perpetua;
+    color:green;
+    text-align: center;
+    font-size: 30px;
+}

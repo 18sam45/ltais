@@ -1,0 +1,59 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body    
+{
+    background-image: url(download.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+h1
+{
+    font-family: Bookman Old Style;
+    font-size: 80px;
+    text-align: center;
+    font-style: normal;
+}
+p
+{
+    text-align: center;
+    font-family: Agency FB;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: -4px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    
+}
+.button
+{
+    width: 300px
+    color: black;    
+    background-color:#73a832;
+    border: none;
+    position: absolute;
+    transform: translate (-50%, -50%);
+    top: 85%;
+    left: 47%;
+    padding: 10px 20px;
+    font-size: 25px;
+    font-family: cooper black;
+    font-weight: bolder;
+    border-radius: 8px;
+    display: block;
+    box-shadow: inset 0000 #32a8a4;
+    transition: ease-out 0.3s;
+    outline: none;
+}
+.button:hover
+{
+    box-shadow: inset 300px 000 #32a8a4;
+    cursor: pointer;
+    color:azure;
+}
